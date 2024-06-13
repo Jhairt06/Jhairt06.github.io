@@ -9,7 +9,87 @@ body {
     background-position: 0 0, 30px 30px;
     background-color: #121212;
 
-
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        background-image: radial-gradient(#6a3d7a 2px, transparent 2px), radial-gradient(#6a3d7a 2px, transparent 2px);
+        background-size: 60px 60px;
+        background-position: 0 0, 30px 30px;
+        background-color: #121212;
+    
+    
+        color: #ffffff;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+    }
+    
+    #wrapper {
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        padding-bottom: 3em;
+    }
+    
+    #title {
+        font-size: 4em;
+    }
+    
+    #instructions {
+        font-size: 2em;
+    }
+    
+    #main-container {
+        /* margin: auto 8em auto 8em; */
+        color:#121212;
+        background-color: #ffffff;
+        border: #7f39fbff 0.2em solid;
+        border-radius: 1em;
+    }
+    
+    #text-input {
+        font-size: 1.35em;
+        font-family: inherit;
+        padding: 0.25em 0.5em;
+        background-color: #fff;
+        border-top: 2px solid #ffffff;
+        border-left: 2px solid #ffffff;
+        border-right: 2px solid #ffffff;
+        border-bottom: 2px solid #985eff;
+        border-radius: 4px;
+    }
+    
+    #check-btn {
+        font-size: 1.35em;
+        color: #ffffff;
+        font-family: inherit;
+        padding: 0.25em 0.5em;
+        background-color: #985eff;
+        border: #985eff 0.1em solid;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    #result {
+        font-size: 1.3em;
+    }
+    
+    #what-is {
+        color:#fff;
+        margin-top: 2.5em;
+        text-align: center;
+        background-color: #00471b;
+        border: #7f39fbff 0.2em solid;
+        border-radius: 1em; 
+        width: 40em;
+    }
+    
+    .bold {
+        font-weight: bold;
+    }
     color: #ffffff;
     text-align: center;
     font-family: "Roboto", sans-serif;
